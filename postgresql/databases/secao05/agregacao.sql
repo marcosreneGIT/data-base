@@ -66,6 +66,8 @@ SELECT id_categorias, MAX(preco_venda) FROM produtos GROUP BY id_cartegorias;
 -- HAVING
 SELECT id_categorias, MAX(preco_venda) FROM produtos GROUP BY id_categorias HAVING MAX(preco_venda::numeric) > 100;
 
+CREATE DATABASE agrupamento;;
+
 
 
 
